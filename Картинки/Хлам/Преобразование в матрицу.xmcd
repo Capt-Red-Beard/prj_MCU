@@ -1,0 +1,5061 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest e52081b075fa9ad0da015e9cd00a6290?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>P</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>P</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>4</revision>
+			<documentID>62C904D0-3402-4A45-A4ED-9B8DBB6F86DE</documentID>
+			<versionID>6D61A6BF-C6A5-42A5-AB14-DEF396DBA180</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="9" orientation="portrait" print-single-page-width="false" page-width="595.5" page-height="842.25">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="en" UI="en"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="0">
+				<compatibility multiple-assignment="MC12" local-assignment="MC12"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="cm"/>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="15" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="2" left="144" top="75" width="192.75" height="12.75" align-x="157.5" align-y="84" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">D</ml:id>
+					<ml:apply>
+						<ml:id xml:space="preserve">READBMP</ml:id>
+						<ml:str xml:space="preserve">Картинка уровнемер.bmp</ml:str>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="1"/>
+		</region>
+		<region region-id="4" left="18" top="112.5" width="360" height="269.25" align-x="31.5" align-y="246" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define warning="WarnRedefinedUDScalar" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">D</ml:id>
+					<ml:eval placeholderMultiplicationStyle="default">
+						<ml:parens>
+							<ml:apply>
+								<ml:div/>
+								<ml:id xml:space="preserve">D</ml:id>
+								<ml:real>255</ml:real>
+							</ml:apply>
+						</ml:parens>
+						<result xmlns="http://schemas.mathsoft.com/math30">
+							<ml:matrix rows="64" cols="64">
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>0</ml:real>
+							</ml:matrix>
+						</result>
+					</ml:eval>
+				</ml:define>
+				<resultFormat>
+					<table item-idref="2"/>
+				</resultFormat>
+			</math>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="15" left="48" top="417.75" width="33.75" height="18" align-x="61.5" align-y="432" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">D</ml:id>
+					<ml:apply>
+						<ml:transpose/>
+						<ml:id xml:space="preserve">D</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="12" left="6" top="513" width="210" height="127.5" align-x="19.5" align-y="522" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define warning="WarnRedefinedBIUnit" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">H</ml:id>
+					<ml:program>
+						<ml:for>
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:real>0</ml:real>
+								<ml:real>63</ml:real>
+							</ml:range>
+							<ml:program>
+								<ml:localDefine>
+									<ml:id xml:space="preserve">S</ml:id>
+									<ml:str xml:space="preserve">{</ml:str>
+								</ml:localDefine>
+								<ml:for>
+									<ml:id xml:space="preserve">j</ml:id>
+									<ml:range>
+										<ml:real>0</ml:real>
+										<ml:real>62</ml:real>
+									</ml:range>
+									<ml:localDefine>
+										<ml:id xml:space="preserve">S</ml:id>
+										<ml:apply>
+											<ml:id xml:space="preserve">concat</ml:id>
+											<ml:sequence>
+												<ml:id xml:space="preserve">S</ml:id>
+												<ml:apply>
+													<ml:id xml:space="preserve">num2str</ml:id>
+													<ml:apply>
+														<ml:indexer/>
+														<ml:id xml:space="preserve">D</ml:id>
+														<ml:sequence>
+															<ml:id xml:space="preserve">j</ml:id>
+															<ml:id xml:space="preserve">i</ml:id>
+														</ml:sequence>
+													</ml:apply>
+												</ml:apply>
+												<ml:str xml:space="preserve">,</ml:str>
+											</ml:sequence>
+										</ml:apply>
+									</ml:localDefine>
+								</ml:for>
+								<ml:localDefine>
+									<ml:id xml:space="preserve">S</ml:id>
+									<ml:apply>
+										<ml:id xml:space="preserve">concat</ml:id>
+										<ml:sequence>
+											<ml:id xml:space="preserve">S</ml:id>
+											<ml:apply>
+												<ml:id xml:space="preserve">num2str</ml:id>
+												<ml:apply>
+													<ml:indexer/>
+													<ml:id xml:space="preserve">D</ml:id>
+													<ml:sequence>
+														<ml:real>63</ml:real>
+														<ml:id xml:space="preserve">i</ml:id>
+													</ml:sequence>
+												</ml:apply>
+											</ml:apply>
+											<ml:str xml:space="preserve">},</ml:str>
+										</ml:sequence>
+									</ml:apply>
+								</ml:localDefine>
+								<ml:localDefine>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">F</ml:id>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">S</ml:id>
+								</ml:localDefine>
+							</ml:program>
+						</ml:for>
+						<ml:return>
+							<ml:id xml:space="preserve">F</ml:id>
+						</ml:return>
+					</ml:program>
+				</ml:define>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="13" left="6" top="688.5" width="630.75" height="269.25" align-x="18" align-y="822" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">H</ml:id>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:matrix rows="64" cols="1">
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,1,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,1,0,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,1,0,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0},</ml:str>
+							<ml:str xml:space="preserve">{0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0},</ml:str>
+						</ml:matrix>
+					</result>
+				</ml:eval>
+				<resultFormat>
+					<table item-idref="6"/>
+				</resultFormat>
+			</math>
+			<rendering item-idref="7"/>
+		</region>
+		<region region-id="14" left="12" top="1002" width="86.25" height="62.25" align-x="54" align-y="1002" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<component hide-arguments="false" clsid-buddy="01350084-1122-11DB-9380-000D56C6051A" item-idref="8" disable-calc="false">
+				<inputs>
+					<ml:id xml:space="preserve" xmlns:ml="http://schemas.mathsoft.com/math30">H</ml:id>
+				</inputs>
+				<outputs/>
+			</component>
+			<rendering item-idref="9"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1">iVBORw0KGgoAAAANSUhEUgAAAQEAAAARCAYAAADdTRnSAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUNSURBVHhe7VkLsuMoDMy5ciCfx6fx
+Zd5hsvoBLSGwd5O8mWzoKtcYJKGWEDIvc3ssLCx8NVYTWFj4cqwmsLDw5VhNYGHhy2FN4Hhs
+t9vjljz3/UdVXoqfx35P/G2HiffHPcrk2Yhpj2MjWbGtuBLTQOe+E0MG8sx9O5379tiSuPoc
+st+yHtvfH6JybBaHz0+xlzjT9RY+DlLjtu8vR1ZTBVR7tb4V7ibAReYKjBfgQuwO2CughV6X
+Nl/NVZATfvYtSdohAc8axDym6McOIDguhw+5VNB6d/Yf9KvPLi5uALj5ow0LvKhotj74hY9E
++fj8iSZAkAbUzsu8CTCkiN9BNj98zX+U5/jZdwpGk5rpnseU+OEkQbdkH/tOBz10UMaxUWMi
+GfrwPnX9shEs8zxZbhtCvEbxa5wL/xu8/SaQ1RQAmsN5E7ADli4kgZwf1ByxyPlrjkmJ8uwW
+QDq7KjD3/JCexeT9MGQtmBg2Gvs6M3f04XxajmQcmkvBQevLHMktHALwYjvnWCE8aW13sxF/
+lMdD/eItxOnzg3++GK+q08mUTyeTL0qRaeGlvCrKV7DplxzJeMJfgfa+kVef/HScszGbNj9Y
+D6ITuGuNzmzL3Iy/IdGra/ABJR+H+eP54vuqn7ymEByn5u9CE9Ck9PMISFx80gwwgk2nF9cs
+Gw7AAEtSgs55TAn3bvP1KywbUQpAxm0efXSHzdYT+2E+IpCXHRYEx+uKkXXggJhMi8dk7Bvy
+JPwxb/S+0c0Gxy6nQbe+49eG5zteATLvi1ab/Iy/aElOip3m2WTIh2O9EoOsl9jwO807O56j
+3DSdzJb/nfEHWA5qPdWctDUkpzbf3m0vTefUzwScP87lczeBpwAbap3Pe/Abnt0EusOW8DyP
+yfthuOIitKu42qkuvZsRbwD6yH32enM0XrLBXX4MnDuJPTsMDORMiPI6Jn8b+UC5vPv81maM
+MkxeQeQV4GNquez4If8oG3IFn26+POP4lAb5JG7yJTZezFcP6IktchKE/Bd0epwyqxuR4X6O
+3i/4maDU42kTkM0KZHtowWJC6jNk5Q9f77s/nB4H/SmQcA2H5TymxI8kuM21JqDrsY8DmlJJ
+ZkHmkxH15jjLj2665pffZ8UB4yi3MX/lZA7lA10vi8U34NWhxecafPSJ/KWxnPFhAXCK63U2
+GT+ylzoqvuOYVEa20R/aIDo9Ds/2GNeevl/wM0Gpx2kT0MOSF/TziIePg8Dx4HDaxOh/Cvwa
+V2Lq/bANFhv/+NdocfJ9cxP9MM5yJr7R0RSBV9h0vxbHjcUBdvGWFYvH9CtflKe6vUy4mI8h
+rwzlttDxG/HX/a3royxwrXswi4EsOcc1dlpPlyY/GE/lw/5PbKf8ASmv0WEfvV/wMwHniO2t
+CVhyk6c6yRCJXIYmsPjARKLv7NkOtMUC82ve5G86GMPT+J7F7dcsdiV5vU/8wYyemBjO16WN
+yvNTClI223JffQ3nRzniAoSxcIXxf/phkNaEH6rqM4m55dIw5U9w8iLDuFCGnGMMxgnXCznQ
+vJeGcMU2zMkD/E2mqpFzHwvWOtvU/dfB2M8l8NrahNxNYOH96Ir+1ZDigC/MXw0qRP4dwkaC
+j+Kf4Lf4P+uHP7hWiKsJ/DrwSvkGfNIhKldoxGoC1/CMH7FtN4fVBP4I+Cr2b69vV4B/3rxj
+/deAb0P1WuvwGfzH+C3+z/hhW2+zmsDCwlfj8fgHqyHpAPdJrTIAAAAASUVORK5CYII=</item>
+		<item item-id="2" content-encoding="gzip">H4sIAAAAAAAA/+xXS0hUYRQ+d17O6KgzaqbjIzUrtXzdHPOVXh01lUzQcFs6c9GR0fExQRKE
+tGphEQS2rU0bV0GLlhURBIG6bmMbW7WKIAqdzvnP73ivRNmLCD2X8z/Ofx7fPfPPf8/vBgAF
+eQg5WYwt2Npis7qeB0QqsnMyODA6oQdjQgKDyC1opFlVx2eABZu6/BxndjUbuwWHuvgMuyQ1
+hTqnmqoJI5ecJ6uWdICQC8CidAKksLbLrd6eRh8pkKomfUGBO431UqVeupg+xqlNsargxwfJ
+wyFTvIzAk6ECamleXMpkbN4sVUDNBDgkXs0VGB7qmumN6ZOKwOVGdhgFGAKyhapTnxnUx8LR
+KbtYqCPrUDTIMpuQNSZS5pgbn+6IXuUMnUdOQsFgImf9yDnIS8ifMNAmcgWOezgokDsPji1g
+OSx+kIxEpPZYbDY8eiWms2oTcjoYKaepxDTP3c65j3Oem8e59Mlc5nPOfQWc83wo5JwXHGG9
+QqlXxDkvNOe8WF16gcr5JZzrYhQdFcOFYhMKKBV5cWO+A9HJ0ShlmBc8lB0U70jofVpw+01g
+fw/5Or4qvW48TtqoOhDRA5GwPhUTNgrvWc6HaNF2dcW7/uCR7y3solawwlbcBQ6DbMea4Vjk
+fCtOEZniB/Rf0SbyloEPaH/RIETxiUERdMEU9rMwv/so+C5lgz3xn6ez4Ab4lRLvG+/dBUgd
+fmn3GXUvF5dVb2SuKVYcP5UHSQCjU1xdtHM/FZsoAw9d4/vs1e6m8mOdvdKvxP+T9DvxKQ10
+jtNvQl9T+mjTmX9wFuwPsmPldu0EwEYp74dk085IjEnsAapOqCIUlC2HIQiL3ZMura3SJmyw
+p3LxCfKHuHmH3uEgr6npx2q6CHkcz4IIPkXQie0Y9mpCP4JbdP3de3D2LaeJOA31Fptc+/gX
+fbdQc3HxVW1w1fvwFtwvXbGvbVdDzl25+lb+QKH/mCh4kbOQ8WNr4n9FAuUxrkQzCaPCdfSQ
+PhseiVzqDM9NR0bmL0RDOusPCKPjbOCRTk6Ybydl8nZSzpVyGVRwpVx+kvUqpN4prpQrzJVy
+Jd9Oyqr4dlJZzRVzFS7V8O2kqpZvJzW0AVWGUiOwawOgnGZBJUOr28bgZwx19YzBLzGcYQx+
+M4YGiaGRMTQ0MQa6tzQzhsYWxtBMGM5yyOYEhlYWNAgIbdKJprGXNpRp7eymTetgP1o7OdIC
+bEgz6UrrNPjSugwuurddnJMuuoWLHumie8dFr0mhz6hAkq8AAAD//wMAIdKl4M4OAAA=</item>
+		<item item-id="3">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</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAC0AAAAYCAYAAABurXSEAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADKSURBVFhH7ZSBDYQgDEWZqwMxD9Ow
+TIepcNYLnlq0IDmSvoREEfs/LdTRhJjpUZjpnmAAcs6dD17zd2DwFHB7BoLtJfo5jsfOdMJM
+v4WZHsWF6Uj+rLWkUS7uxzM9MdPR//yU20sO5iNP9KWuhxSg2BTPy6Yzn0Dw7Zk90erVTXMp
+j/MJDATpm7YQj/WYG6bXEklBDmUsh7AjrV5bpht5LdP55tbPdL9M39ETTa8B5F23oNVj09d9
+U7xk6ouo1GN2mZ4FMz2KCU0TLWkvtJ10pBoJAAAAAElFTkSuQmCC</item>
+		<item item-id="5">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
+xN/f/1/8V6CbwxM8AAAAAElFTkSuQmCC</item>
+		<item item-id="6" content-encoding="gzip">H4sIAAAAAAAA/+xXzU8TURCf3dKyQAstlIogtZaKH6jEjRokjakWEkzExpZwNdBuYE3pQlmN
+3BpPHjAxMcGTiV68GA/ePKoxJiZG4CwHvfAPEC8mtM68WZYtMYpfMQammff2zZvfzHuz07fz
+vAAgIWeQ68WzjG2NWdS0DiBSkZWpbGr8mpY1hQTSyHEEJVyq5wtAqUZ98gpHbjWEXcmjzr/E
+rlb1JYS2Yo3rVLkJIKcAyNIQOmNtpYHB9V4VcDrRgAgfm21oVIUXH+AMraouOZoZnLloalOS
+sOxF9jgFqAl+oapoM2ltQjcKbjFxitA5I8uyGiE7a+/WMzs5fcG4yZu7hFyLgrS93WGyh7zg
+AriCvI74NhwPsR3hlUgGOSBi2Wx7Om+aRX38uqnx+vqBtuKk5v5o1bhlI2pBjlpLK0ctaEUt
+pC68RnFwD0crhJpt4rEUqrKzV2zMiwFLGlPjBoWIJ/y0PRRvSmhBcXz1Xdjfx+2FkWm9lQpp
+o2oqryXzulYwBQZnXFbOWC1ilxYDHx89a/8EW+gc6pYrdeBxyCQbzcuRrXG5Qh6ZKrv0X9E6
+ctnBu7SzKA0G/kyIwCAUsC/C3Naj4LsUArf9n6ez4BaclqKBD4F7JfCNvnG3O3VLmVLvasuy
+RKfQC+sgSaJ38quJdvanfBM14+nq3M92cbelH+tsl37F/5+k3/FPYaBznN4JfRXpq0tn/u5Z
+sDPIjUVQfARgNcb5UF+VGfYzDfzICuZJK09S2UKPOdBF9jRZaJeF0R14qveeI69VqjP0Ljt5
+R80wVrIR5Ek8C/L4i8AAthPYq7Z+HlOUTpW+lfeNwk/fGfnpg7Ub9Pj5L9qOUzMy//Zkdinw
++A48jC26lzeqIWVLrL4VP5DoPyYqVmQsCQE/tlX8r0issp0LUSqHZYkL4YxW1MfyVwf02en8
+2NxlI6exfkqAOhhgJcu+6vtBp3U/CPP9oHM/V7xh1Izw/SB8gO8HEcqaKNuKCOeJFEhdLOgU
+tmOWkYNshLK0m43EDrGRbjJymDHdtpEjDiNHN7E9FvYYY3sIe5xVe2zsCcdkr2OSxl8BAAD/
+/wMAQ4aem3YNAAA=</item>
+		<item item-id="7">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
+ADBomv8B4Wn0s1f1xcwAAAAASUVORK5CYII=</item>
+		<item item-id="8" content-encoding="gzip">H4sIAAAAAAAA/+xWT08TQRR/u+1uW+gftiCFcjF8AP+smAghRGyaQAIhKQlHD1snWEO7tKwJ
+3JrojaMfgJh4NuEjePGqnr3oxbsfwC6/NzPdLk008seDob/mN2/mvXn7Zl5nJi9LRAa4DY7J
+vok2GXSEmCOGC6ab9S3vhagHUkM1cBlOjxPuyQeibtJ9+hPCcnP70m7rccqlAmbZ/AU10864
+0jHNwThQprKzXW2vB6JpSNcsu8cVOXBcTk2Ldk3sNvyWJQ0L7P3MrytdUuoWow3YB8/3n/iH
+ar0bYAqKWrSDTXACfIRvvYI8hlzTY0ae7ViASWZWpqcYRVoNgk7DexkItb4lsEBx5Jbmz43z
+/bQUVFryEyot7OWotBSKKi0Op2XSNWF6h75p8JrkfiSmZDeLlFX8pudzkpSBt5KCeqDhjy/j
+/yxyVrCpNuQDMAx5NqZu7YnKXkO0AumD4El9EHQL38+fnG9vT8vfaQgrlKBemCE7pjMib7Uc
+U497IUdUCEf4r/AL7MU4ws1CjXz8ArpNVWpBduho+Cn4I6bJiu48vwWv6aEx73x13nQpt/PR
+Ksfn3ts8uftj8ouRQL+rdRVE57hCtgcXis0o4gGN7+dv/RoXjvR7XCb+deIq8fvv9wg3ExaK
+L+b7caKqLozGzp2OqG/oo9aXXBpMcR91gocLtUservAd8BCEtk9zle5f4XiP8K9xS1Wj6Vg1
+Oj0o60u6rJ9R9WuJD8is8igNPMox69ywFbozAAAA//8DAB3zLJSEDAAA</item>
+		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAHMAAABTCAYAAACs7zjQAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALDSURBVHhe7ZtRcoMgFEVZFwtyPa7G
+7+zDxVAQiIKAxGqEm3tmmCb6eG048EImVCgCA2UCQZlAUCYQlAkEZQIBJVMIcaqhACfz9XpV
+CfIxlNkon8r0DYWfllkb2wuUSZltQplAUCYQXpCXVGrbOBRgZdY2ymyUeMUdNcpsGC+oJNNj
+HlNmw3hBlAmAF0SZIGzF1TYU4GT+MpQJBGUCQZlAUCYQlAkEZQJBmUBQJhCUCQRlAkGZQDwk
+c1KDEEqOs3t+FXfl7YOGZdoYMUzueQ31eY+Fn5kYZ/pcB2VmOSPmTJ/r+MEyS5kXs77oeZTr
+F8VyVOswZAZmGoIvlqU0/aWyYUd57f1tfyEGfTUmHTcM5qf/XY55VNLcH/T9RJ9P6sp/eVSm
+ecGrrFmNUl97l9WETCdyrbyuTyTz47xJUnEu12bSTUZwNFmOc99DW2V2kbVfZZZYiqPYx1ET
+syMT51bicj3Ia6jNfQ9tyXQDZX1FMcG9DTWiSnmz5ONsCZe6xMf3a3PfA2VmKcXty62lNvc9
+NCgzI+bfMg9iduTjlpWpN17m7wnv1+a+h6Zk2vLld4BxTGagKmSW8+bIxG0nFd8zDfZFB1t3
+N0jrQOwHZtk5JvrEMst5XZ6oRPqPMuW4eBN2tLv9Ls+uTP3ZzMqwLZzR6VluhfqmpaVWZjGv
+wUt3OfSVlMwwzm54goli8BPqLXif+1s8JPNCFpnfHbRW6UumFlezen+V7mTa8rU2ilzpv8yS
+N5QJBGUCQZlAUCYQlAkEZQJBmUBQJhCUCQRlAkGZQFAmEJQJBGUCQZlAUCYQlAkEZQJBmUBQ
+JhCUCYST6Y7Z+yOM7nR2cHr8oSP3pJ5gZRp58TnU5dj+7l+vSItUyeRB4z6gTCB2Mt/vkZtG
+mX3AlQkEZQJxKHMpvdzNdoGTyc+ZCAQrk/QNZQJBmUBQJgxK/QFh8Uyrc3asRwAAAABJRU5E
+rkJggg==</item>
+	</binaryContent>
+</worksheet>
