@@ -3781,7 +3781,36 @@ void SetNameBlooetooth(void)
 	}
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////      Функция Проверяет канал Обмена bluetooth модуля     /////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+void Test_Chanela_Blooetooth(void)
+{
+	//Перевод модуля в AT режим включеный
+	GPIO_SetBits(BT_AT_Port, BT_AT_Pin);
+	Delay_us(10000);
+	//GPIO_ResetBits(BT_Reset_Port, BT_Reset_Pin);
+	Delay_us(10000);
+	//GPIO_SetBits(BT_Reset_Port, BT_Reset_Pin);
+	//Отправка AT команды
+	Delay_us(1000000);
+	while(!USART_GetFlagStatus(USART_BT,USART_FLAG_TC)); USART_SendData(USART_BT,'A');
+	while(!USART_GetFlagStatus(USART_BT,USART_FLAG_TC)); USART_SendData(USART_BT,'T');
+
+	Delay_us(10000);
+	// инициализирую буфер
+	char buffer_RX[2] = {0,};
+	while (USART_GetFlagStatus(USART_BT, USART_FLAG_RXNE) == RESET){}; //Ожидается прибытие байта в буфер bluetooth
+	buffer_RX[0]=USART_ReceiveData(USART_BT); //Забирается байт из буфера Usart
+	while (USART_GetFlagStatus(USART_BT, USART_FLAG_RXNE) == RESET){}; //Ожидается прибытие байта в буфер bluetooth
+	buffer_RX[1]=USART_ReceiveData(USART_BT); //Забирается байт из буфера Usart
+
+	Delay_us(1000000);
+	//Перевод модуля в AT режим сброс
+	GPIO_ResetBits(BT_AT_Port, BT_AT_Pin);
+	Delay_us(1000000);
+}
 
 
 
@@ -6836,6 +6865,7 @@ int main(void)
 		{
 		Delay_us(3000000); //Задержка 3 с
 		Bluetooth_Init();
+		Test_Chanela_Blooetooth();
 		GSM_Init();
 		Delay_us(1000000); //Задержка 1 с
 		Timeouts.TimeoutIdle=Idle_Timeout; //Устанавливается таймаут простоя устройства
@@ -6855,6 +6885,7 @@ int main(void)
 			//Power_ON_BT_GSM(); //Включается питание Bluetooth и GSM модулей
 			Delay_us(3000000); //Задержка 3 с
 			Bluetooth_Init();
+			Test_Chanela_Blooetooth();
 			GSM_Init();
 			Delay_us(5000000); //Задержка 5 с
 			GSM_Send_Data_FTP();
